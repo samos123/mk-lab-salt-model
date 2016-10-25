@@ -15,6 +15,10 @@ classes:
 - system.mysql.client.single
 - system.openstack.common.mk20_lab_basic
 parameters:
+  reclass:
+    storage:
+      data_source:
+        engine: "local"
   _param:
     reclass_data_repository: "git@github.com:Mirantis/mk-lab-salt-model.git"
     reclass_data_revision: master
