@@ -11,7 +11,7 @@ parameters:
   salt:
     master:
       accept_policy: auto_accept
-      worker_threads: 40
+      worker_threads: 5
       command_timeout: 10
       peer:
         '.*':
