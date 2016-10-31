@@ -2,6 +2,10 @@ classes:
 - cluster.mk20_lab_basic.openstack_config
 - cluster.mk20_lab_basic.openstack_proxy
 parameters:
+  reclass:
+    storage:
+      data_source:
+        engine: local
   _param:
     linux_system_codename: xenial
   linux:
