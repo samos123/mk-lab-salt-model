@@ -3,8 +3,9 @@ classes:
 - cluster.mk22_lab_basic.openstack.proxy
 parameters:
   _param:
+    reclass_data_repository: "https://github.com/samos123/mk-lab-salt-model.git"
+    reclass_data_revision: sam-vagrant-blog-post
     linux_system_codename: xenial
-    reclass_data_revision: dash
   linux:
     system:
       name: cfg01
