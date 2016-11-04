@@ -1,6 +1,6 @@
 classes:
 - system.linux.system.single
-- cluster.mk22_lab_basic.monitoring
+#- cluster.mk22_lab_basic.monitoring
 - cluster.mk22_lab_basic.openstack
 parameters:
   _param:
@@ -34,13 +34,6 @@ parameters:
           names:
           - cmp01
           - cmp01.mk22-lab-basic.local
-        mon01:
-          address: 172.16.10.107
-          names:
-          - mon
-          - mon.mk22-lab-basic.local
-          - mon01
-          - mon01.mk22-lab-basic.local
         ctl:
           address: ${_param:cluster_vip_address}
           names:
